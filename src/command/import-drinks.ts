@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import DrinksImporter from "../service/importer/DrinksImporter";
+import DrinksImporter from "../service/importer/drinksImporter";
 
 const chalk = require('chalk');
 console.log('Importing drinks...')

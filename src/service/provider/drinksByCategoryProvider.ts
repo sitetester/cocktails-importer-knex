@@ -1,4 +1,4 @@
-import CategoryRepository, {Category} from "../../repository/CategoryRepository";
+import CategoryRepository, {Category} from "../../repository/categoryRepository";
 
 const axios = require('axios').default;
 

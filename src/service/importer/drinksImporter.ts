@@ -1,7 +1,7 @@
-import DrinksCategoriesImporter from "./DrinksCategoriesImporter";
+import DrinksCategoriesImporter from "./drinksCategoriesImporter";
 import DrinksByCategoryProvider from "../provider/drinksByCategoryProvider";
 import DrinksByIdProvider from "../provider/drinksByIdProvider";
-import DrinksRepository from "../../repository/DrinksRepository";
+import DrinksRepository from "../../repository/drinksRepository";
 
 export default class DrinksImporter {
 

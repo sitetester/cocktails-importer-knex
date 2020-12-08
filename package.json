@@ -2,10 +2,11 @@
   "name": "cocktails-importer",
   "version": "1.0.0",
   "description": "",
-  "main": "src/command/import-drinks.ts",
+  "main": "src/command/importDrinks.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "app:import-drinks": "./node_modules/ts-node/dist/bin.js src/command/import-drinks.ts"
+    "app:import-drinks": "./node_modules/ts-node/dist/bin.js src/command/importDrinks.ts",
+    "app:list-drinks-order-by-name": "./node_modules/ts-node/dist/bin.js src/command/listDrinksOrderByNameCommand.ts"
   },
   "author": "",
   "license": "ISC",
